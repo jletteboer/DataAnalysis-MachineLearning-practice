@@ -1,8 +1,6 @@
 # [Shelter Animal Outcomes Kaggle competiton](https://www.kaggle.com/c/shelter-animal-outcomes)
 
-#### Help improve outcomes for shelter animals
-
-![alt text](https://kaggle2.blob.core.windows.net/competitions/kaggle/5039/logos/front_page.png)
+> Help improve outcomes for shelter animals
 
 ## Overview
 
