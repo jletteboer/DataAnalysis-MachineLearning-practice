@@ -28,7 +28,7 @@ Submissions are evaluated using the [multi-class logarithmic loss](https://www.k
 
 <div style="text-align:center;">
 
-<img src="https://latex.codecogs.com/svg.latex?log&space;loss&space;=&space;-\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij})," >
+<img src="https://latex.codecogs.com/svg.latex?log&space;loss&space;=&space;-\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij}),">
 
 </div>
 
