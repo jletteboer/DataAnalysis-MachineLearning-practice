@@ -2,7 +2,7 @@
 
 #### Help improve outcomes for shelter animals
 
-![](https://kaggle2.blob.core.windows.net/competitions/kaggle/5039/logos/front_page.png) 
+![alt text](https://kaggle2.blob.core.windows.net/competitions/kaggle/5039/logos/front_page.png) 
 
 ## Overview
 
