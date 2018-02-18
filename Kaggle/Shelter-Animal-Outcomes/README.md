@@ -26,7 +26,9 @@ Kaggle is hosting this competition for the machine learning community to use for
 
 Submissions are evaluated using the [multi-class logarithmic loss](https://www.kaggle.com/wiki/MultiClassLogLoss). Each incident has been labeled with one true class. For each animal, you must submit a set of predicted probabilities (one for every class). The formula is then,
 
-$$log loss = -\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij}),$$
+<p align="center">
+![alt](https://latex.codecogs.com/svg.latex?log&space;loss&space;=&space;-\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij}),)
+</p>
 
 <img align="center" src="https://latex.codecogs.com/svg.latex?log&space;loss&space;=&space;-\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij}),">
 
