@@ -30,9 +30,9 @@ Submissions are evaluated using the [multi-class logarithmic loss](https://www.k
   <img src="https://latex.codecogs.com/svg.latex?log&space;loss&space;=&space;-\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij})," title="log loss = -\frac{1}{N}\sum_{i=1}^N\sum_{j=1}^My_{ij}\log(p_{ij}),">
 </p>
 
-where N is the number of animals in the test set, M is the number of outcomes, <img src="https://latex.codecogs.com/svg.latex?\inline&space;log" title="log" /> is the natural logarithm, <img src="https://latex.codecogs.com/svg.latex?\inline&space;y_{ij}" title="y_{ij}" /> <img src="https://latex.codecogs.com/svg.latex?y_{ij}" title="y_{ij}" />is 1 if observation $i$ is in outcome $j$ and 0 otherwise, and $p_{ij}$ is the predicted probability that observation $i$ belongs to outcome $j$.
+where N is the number of animals in the test set, M is the number of outcomes, <img src="https://latex.codecogs.com/svg.latex?\inline&space;log" title="log" /> is the natural logarithm, <img src="https://latex.codecogs.com/svg.latex?\inline&space;y_{ij}" title="y_{ij}" /> <img src="https://latex.codecogs.com/svg.latex?y_{ij}" title="y_{ij}" />is 1 if observation <img src="https://latex.codecogs.com/svg.latex?\inline&space;i" title="i" /> is in outcome <img src="https://latex.codecogs.com/svg.latex?\inline&space;j" title="j" /> and 0 otherwise, and <img src="https://latex.codecogs.com/svg.latex?p_{ij}" title="p_{ij}" /> is the predicted probability that observation <img src="https://latex.codecogs.com/svg.latex?\inline&space;i" title="i" /> belongs to outcome <img src="https://latex.codecogs.com/svg.latex?\inline&space;j" title="j" />.
 
-The submitted probabilities for a given animal are not required to sum to one because they are rescaled prior to being scored (each row is divided by the row sum). In order to avoid the extremes of the log function, predicted probabilities are replaced with $max(min(p,1-10^{-15}),10^{-15})$
+The submitted probabilities for a given animal are not required to sum to one because they are rescaled prior to being scored (each row is divided by the row sum). In order to avoid the extremes of the log function, predicted probabilities are replaced with $<img src="https://latex.codecogs.com/svg.latex?max(min(p,1-10^{-15}),10^{-15})" title="max(min(p,1-10^{-15}),10^{-15})" />
 
 ### Submission Format
 
